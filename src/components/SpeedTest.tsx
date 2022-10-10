@@ -64,7 +64,7 @@ const SpeedTest = () => {
               <div className="flex justify-center">
                 <ReactSpeedometer
                   value={netSpeed?.download}
-                  maxValue={100}
+                  maxValue={3000}
                   startColor="red"
                   endColor="green"
                   currentValueText={`Download Speed : ${netSpeed?.download} MBPS`}
@@ -74,7 +74,7 @@ const SpeedTest = () => {
               <div className="flex justify-center">
                 <ReactSpeedometer
                   value={netSpeed?.upload}
-                  maxValue={100}
+                  maxValue={3000}
                   startColor="red"
                   endColor="green"
                   currentValueText={`Upload Speed : ${netSpeed?.upload} MBPS`}
