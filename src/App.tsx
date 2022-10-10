@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import Nav from "./components/Nav"
+import React from "react"
+// import Nav from "./components/Nav"
 import SpeedTest from "./components/SpeedTest"
 
 const video = require("./assets/video/future.mp4")
